@@ -53,7 +53,7 @@ function App() {
 
 ### AppLoader props
 
-| prop     | tipo | obrigatório | padrão       |
-|----------|------|-------------|--------------|
-| logo     | `url | ReactNode`  | `Eduzz Logo` |
-| logoDark | `url | ReactNode`  | `Eduzz Logo` |
+| prop     | tipo             | obrigatório | padrão       |
+|----------|------------------|-------------|--------------|
+| logo     | `url\|ReactNode` | `false`     | `Eduzz Logo` |
+| logoDark | `url\|ReactNode` | `false`     | `Eduzz Logo` |
