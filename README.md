@@ -5,7 +5,7 @@ Loader de aplicação padrão.
 ## Importação
 
 ```ts
-import AppLoader, { useAppLoaderContext } from '@eduzz/ui-app-loader';
+import AppLoader, { useAppLoader } from '@eduzz/ui-app-loader';
 ```
 
 ## Exemplo
