@@ -1,0 +1,70 @@
+{
+  "name": "@eduzz/ui-app-loader",
+  "version": "0.0.1",
+  "keywords": [
+    "eduzz",
+    "react",
+    "layout",
+    "loader"
+  ],
+  "private": false,
+  "author": "Eduzz Team",
+  "license": "MIT",
+  "homepage": "https://github.com/eduzz/ui-app-loader",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eduzz/ui-app-loader"
+  },
+  "bugs": {
+    "url": "https://github.com/eduzz/ui-app-loader/issues"
+  },
+  "scripts": {
+    "predev": "yarn clean",
+    "dev": "yarn vite",
+    "clean": "git add . && git clean -fdx . -e node_modules",
+    "prebuild": "yarn clean",
+    "build": "yarn vite build",
+    "lint": "eslint . --ext ts,tsx",
+    "update-deps": "yarn ncu -u"
+  },
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "devDependencies": {
+    "@ant-design/icons": "^5.1.4",
+    "@eduzz/eslint-config": "^1.0.0",
+    "@eduzz/ui-tailwind-theme": "^0.0.5",
+    "@eduzz/ui-tokens": "^1.0.0",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react-swc": "^3.3.2",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.44.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-eslint-plugin": "^5.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-sonarjs": "^0.19.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "npm-check-updates": "^16.10.15",
+    "postcss": "^8.4.25",
+    "prettier": "^2",
+    "prettier-plugin-tailwindcss": "^0.3.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "tailwindcss": "^3.3.2",
+    "tslib": "^2.6.1",
+    "typescript": "^5.1.6",
+    "vite-plugin-css-injected-by-js": "^3.2.0",
+    "vite-plugin-dts": "^3.2.0"
+  },
+  "resolutions": {
+    "@types/react-dom": "^18",
+    "@types/react": "^18",
+    "react-dom": "^18",
+    "react": "^18"
+  }
+}

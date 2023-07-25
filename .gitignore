@@ -1,0 +1,12 @@
+node_modules
+*.js
+*.d.ts
+dist
+!.prettierrc.js
+.DS_Store
+!**/tailwind.config.js
+!**/postcss.config.js
+*.map
+!scripts/*js
+.skip-release
+.gif
