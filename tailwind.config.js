@@ -32,7 +32,6 @@ export default createTheme({
           '60%': { left: '100%', right: '-90%' },
           '100%': { left: '100%', right: '-90%' }
         },
-
         loaderShort: {
           '0%': { left: '-200%', right: '100%' },
           '60%': { left: '107%', right: '-8%' },
@@ -40,5 +39,8 @@ export default createTheme({
         }
       }
     }
+  },
+  corePlugins: {
+    preflight: false
   }
 });
